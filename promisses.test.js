@@ -23,4 +23,9 @@ describe('teste unidade ', () => {
     })
   })
 
+  describe('teste', () => {
+    it('should return false', () => {
+      expect(promisse("")).to.eventually.deep.equal
+    })
+  })
 })
